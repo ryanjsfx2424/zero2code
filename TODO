@@ -1,0 +1,40 @@
+Make landing page look nicer / better sales pitch etc.
+
+Write first guide
+ -> hello web: how to make your own website (intro to git)
+    1. create a github account
+    2. create github repo (special name)
+    3. create index.html
+    4. commit changes
+    5. navigate to domain
+
+  -> v2: intro to vercel and command-line
+    1. create github repo
+    2. clone repo
+    3. create index.html (install WSL for Windows users...)
+    4. git add
+    5. git commit
+    6. git push
+
+Article: why basic credential store is a big NO-NO 
+https://stackoverflow.com/questions/28104581/how-secure-is-storing-password-with-git/28104587#28104587
+
+Article: how to avoid entering password git push
+
+    7. login to vercel with github
+    8. deploy new site
+
+  -> v3: your own domain name
+   1. buy a domain, e.g., on namecheap
+   2. update nameservers to point to vercel
+   3. set TTL to one minute
+   4. wait a minute
+   5. set TTL to auto (or your choice)
+
+  -> v4: intro to html (zero2code initial homepage: html tag, head, body, title, h1, h2, p)
+  -> v5: intro to css (inline styling for zero2code initial homepage).
+  -> v6: intro to javascript
+           i. calculator app, ii. grocery list, iii. projectile motion animation
+
+v7: intro to python
+i. calc app, ii. grocery list, iii. projectile motion
