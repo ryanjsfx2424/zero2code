@@ -3,17 +3,16 @@
     <title>Zero 2 Code</title>
     <style>
       a {color:white;}
-      .top {background-color:#131313; padding-left:3vw;padding-right:3vw;padding-top:1vh; padding-bottom: 1vh; border-radius:10px; margin-bottom:3vh;margin-top:3vh;}/* box-shadow: 8px 2px 0px 1px white;}*/
-      .small {font-size:15px; font-family: Roboto, sans-serif;}
+      .top {background-color:#131313; padding-left:3vw;padding-right:3vw;padding-top:1vh; padding-bottom: 1vh; border-radius:10px;}
     </style>
   </head>
   <body style="background-color:#708090;color:#F8F0E3;font-size:18px;">
     <div style="margin-left:20vw; margin-right:20vw; text-align:justify">
-      <div class="top">
+      <div style="background-color:#131313; padding-left:3vw;padding-right:3vw;padding-top:1vh; padding-bottom: 1vh; border-radius:10px;">
         <h2 style="display:flex;justify-content:center;">Zero2Code Hands-on Coding Program 2024</h2>
-        <p>
-          Work on real-world projects, leveling yourself up into a top-tier developer.
-        </p>
+      <p>
+        Work on real-world projects, leveling yourself up into a top-tier developer.
+      </p>
       <p>
         No matter where you're starting from, even with zero prior coding experience, the program is built to cater to your unique journey. Choose your adventure starting with one of the following tracks:
       </p>
@@ -157,84 +156,60 @@ Note: by submitting information through this form, you are asserting that it is 
 This opportunity is specially crafted for you, as a testament to our commitment to your coding enrichment. We're excited to see you embark on this transformative journey!
       </p>
       </div>
+      <div style="background-color:#131313; padding-left:3vw;padding-right:3vw;padding-top:1vh; padding-bottom: 1vh; border-radius:10px;">
 
-      <form action="https://">
-        <div class="top">
-          <label for="fname">Your Name</label><br>
-          <input type="text" id="name" name="name" value=""><br><br>
-        </div>
+      <form>
+        <label for="fname">Your Name</label><br>
+        <input type="text" id="name" name="name" value=""><br><br>
 
-        <div class="top">
-          <label for="email">Your Email</label><br>
-          <input type="text" id="email" name="email" value=""><br><br>
-        </div>
+        <label for="email">Your Email</label><br>
+        <input type="text" id="email" name="email" value=""><br><br>
 
-        <div class="top">
-          <label for="timezone">Your Timezone</label><br>
-          <input type="text" id="timezone" name="timezone" value=""><br><br>
-        </div>
+        <label for="timezone">Your Timezone</label><br>
+        <input type="text" id="timezone" name="timezone" value=""><br><br>
 
-        <div class="top">
-          <label for="nation">Country of Nationality</label><br>
-          <p class="small">
-            Please write the name of the country in English, like Turkey, United Kingdom, Italy. This is to ensure compliance with technology embargoes and sanctions.
-          </p>
-          <input type="text" id="nation" name="nation" value=""><br><br>
-        </div>
+        <label for="nation">Country of Nationality</label><br>
+        <p>
+        Please write the name of the country in English, like Turkey, United Kingdom, Italy. This is to ensure compliance with technology embargoes and sanctions.
+        </p>
+        <input type="text" id="nation" name="nation" value=""><br><br>
 
-        <div class="top">
-          <label for="edu">Your Education Level</label><br>
-          <select id="edu" name="edu" value="">
-            <option value="FrHS">Freshman  High School</option>
-            <option value="SpHS">Sophomore High School</option>
-            <option value="JuHS">Junior High School</option>
-            <option value="SrHS">Senior High School</option>
-            <option value="1yUG">1st Year Undergrad</option>
-            <option value="2yUG">2nd Year Undergrad</option>
-            <option value="3yUG">3rd Year Undergrad</option>
-            <option value="4yUG">4th+ Year Undergrad</option>
-            <option value="Mast">Masters</option>
-            <option value="Othr">Other</option>
-          </select><br><br>
-        </div>
+        <label for="edu">Your Education Level</label><br>
+        <select id="edu" name="edu" value="">
+          <option value="FrHS">Freshman  High School</option>
+          <option value="SpHS">Sophomore High School</option>
+          <option value="JuHS">Junior High School</option>
+          <option value="SrHS">Senior High School</option>
+          <option value="1yUG">1st Year Undergrad</option>
+          <option value="2yUG">2nd Year Undergrad</option>
+          <option value="3yUG">3rd Year Undergrad</option>
+          <option value="4yUG">4th+ Year Undergrad</option>
+          <option value="Mast">Masters</option>
+          <option value="Othr">Other</option>
+        </select><br><br>
+        <label for="eduOther">Fill if you selected 'Other' on the previous prompt.</label><br>
+        <input type="text" id="eduOther" name="eduOther" value=""><br><br>
 
-        <div class="top">
-          <label for="eduOther">Fill if you selected 'Other' on the previous prompt.</label><br>
-          <input type="text" id="eduOther" name="eduOther" value=""><br><br>
-        </div>
+        <label for="codeExp">Your Coding Experience</label><br>
+        <textarea type="text" id="codeExp" name="codeExp" value="">
+What exposure have you had to coding / quantum computing so far? This could be through university lectures, online courses, readings, projects (personal or professional) and other means. We're not expecting that you have had much (or any) of this, but we would like to understand what you have done already.
+        </textarea><br><br>
 
-        <div class="top">
-          <label for="codeExp">Your Coding Experience</label><br>
-<p class="small">
-What exposure have you had to coding / quantum computing so far? This could be through university lectures, online courses, readings, projects (personal or professional) and other means. We're not expecting that you have had much (or any) of this, but we would like to understand what you have done already.</p>
-          <textarea type="text" id="codeExp" name="codeExp" value="" rows="10", cols="80"></textarea><br><br>
-        </div>
-
-        <div class="top">
-          <label for="goals">Your Goals</label><br>
-<p class="small">
+        <label for="goals">Your Goals</label><br>
+        <textarea type="text" id="goals" name="goals" value="">
 What are you looking to accomplish? This could be your goals for this specific program, but we rather want to know why you want to participate in this program - and what future experiences you may be hoping to land afterwards. What do you hope Ryan can help you with?
-</p>
-          <textarea type="text" id="goals" name="goals" value="" rows="10", cols="80"></textarea><br><br>
-        </div>
+        </textarea><br><br>
 
-        <div class="top">
-          <label for="commit">Your Commitment</label><br>
-<p class="small">
+        <label for="commit">Your Commitment</label><br>
+        <textarea type="text" id="commit" name="commit" value="">
 How many hours per week can you commit to working on this research program? What other commitments do you need to juggle? It's perfectly acceptable to have prior engagements or to take vacations, but the more you can put into the program, the more you will get out.
-</p>
-          <textarea type="text" id="commit" name="commit" value="" rows="10", cols="80"></textarea><br><br>
-        </div>
-
-        <div class="top">
-          <label for="track">Your Preferred Track</label><br>
-<p class="small">
+        </textarea><br><br>
+        <label for="track">Your Preferred Track</label><br>
+        <textarea type="text" id="track" name="track" value="">
 Indicate your preference by ranking (top choice, 2nd choice, 3rd choice, 4th choice, or Please no!) each of the tracks (AstroCFD, Web3, Quantum Computing, AI/ML). You may also explain in one-to-two sentences what draws you to your top choice.
-</p>
-          <textarea type="text" id="track" name="track" value="" rows="10", cols="80"></textarea><br><br>
-        </div>
-
-        <div class="top">
+        </textarea><br><br>
+      </div>
+      <div style="background-color:#131313; padding-left:3vw;padding-right:3vw;padding-top:1vh; padding-bottom: 1vh; border-radius:10px;">
 <p>Privacy Policy</p>
       <p>
 This Application collects some Personal Data from its Users.
@@ -587,11 +562,11 @@ This privacy policy relates solely to this Application, if not stated otherwise 
 Latest update: June 19, 2024
       </p>
     </div>
-      <div class="top">
-        <p>Disclaimer</p>
-        <p>
+      <div style="background-color:#131313; padding-left:3vw;padding-right:3vw;padding-top:1vh; padding-bottom: 1vh; border-radius:10px;">
+      <p>Disclaimer</p>
+      <p>
 This mentoring program requires participation in education and training in computer programming for application in the software development industry. This is an unpaid educational opportunity that does not offer any employee benefits or worker's compensation insurance. You agree to hold Super Safe LLC harmless from any and all claims arising from your participation in this internship, including claims related to the unintentional or negligent conduct of Super Safe Labs LLC, provided that such waiver is otherwise lawful under the laws of the State of California.
-        </p>
+      </p>
       </div>
         <input type="submit" name="submit" value="Submit My Application"></input>
       </form>

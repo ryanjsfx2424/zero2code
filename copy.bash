@@ -1,2 +1,2 @@
-#cp index.html /mnt/c/Users/ryanj/Downloads
-cp /mnt/c/Users/ryanj/Downloads/index.html .
+cp *.html /mnt/c/Users/ryanj/Downloads/zero2code/
+#cp /mnt/c/Users/ryanj/Downloads/index.html .
